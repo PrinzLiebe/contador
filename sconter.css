@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'beautiful';
+    src: url('fonts/Beauty.otf') format('opentype');
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'beautiful', cursive;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+audio{
+    width: 100%;
+    height: 1rem;
+}
+
+#lightContent{
+    min-height: 100vh;
+    background: black url("./imgs/luzes.jpg") no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+#imgContent{
+    width: 50%;
+    height: 85vh;
+    background: black url('./imgs/linguinha-editado.png') no-repeat center center/cover;
+    color: white;
+    padding: .7rem;
+    border: 2px solid white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    background-color: rgba(0, 0, 0, 0.336);
+    padding: .7rem;
+    border-radius: .7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .7rem;
+}
+
+h1{
+    text-align: center;
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+#content{
+    text-align: center;
+}
+
+#restDays{
+    font-size: 2rem;
+}
+
+#restHours{
+    font-size: 2rem;
+}
+
+#points{
+    font-style: italic;
+}
+
+#load{
+    background-color: transparent;
+    color: white;
+    padding: .1rem;
+    border: none;
+    border-bottom: 2px solid white;
+}
+
+#end{
+    font-style: italic;
+}
+
+@media (max-width: 1000px) {
+    #imgContent{
+        height: auto;
+    }
+}
+
+@media (max-width: 840px) {
+    *{
+        font-size: 18px;
+    }
+    #imgContent{
+        width: 70%;
+    }
+}
+
+@media (max-width: 540px) {
+    #imgContent{
+        width: 85%;
+        height: auto;
+        background: black url('./imgs/linguinha.png') no-repeat center center/cover;
+    }
+}

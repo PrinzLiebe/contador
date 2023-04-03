@@ -1,0 +1,14 @@
+{
+  "name": "counter",
+  "version": "1.0.0",
+  "description": "Contagem regressiva para o aniversário",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MorganStern",
+  "license": "MIT",
+  "dependencies": {
+    "dayjs": "^1.11.7"
+  }
+}
