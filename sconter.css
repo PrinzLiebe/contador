@@ -19,7 +19,7 @@ audio{
 
 #lightContent{
     min-height: 100vh;
-    background: black url("./imgs/luzes.jpg") no-repeat center center/cover;
+    background: black url("./imgs/morangos.jpg") no-repeat center center/cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -107,6 +107,7 @@ h2{
     #imgContent{
         width: 85%;
         height: auto;
-        background: black url('./imgs/linguinha.png') no-repeat center center/cover;
+        background: black url('./imgs/balao.png') no-repeat center center/cover;
+        margin: 3rem 0 3rem 0;
     }
 }
